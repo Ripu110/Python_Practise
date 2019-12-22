@@ -1,0 +1,32 @@
+x = input('enter the value = ')
+c = int(input('enter the value = '))
+v = int(input('enter the value = '))
+
+if x == 'Addition':
+   x = c+v
+   print("value is = ",x)
+elif  x == "Divison":
+    x = c/v
+    print("value is = ",x)
+elif x == "Substraction":    
+    x = c-v
+    print("value is = ",x)
+elif x == "Multiplication":
+   x = c*v
+   print("value is = ",x)
+else:
+    print("Goodbye World")
+    
+    ########################################################################
+num_1 = int(input(" Enter your number: "))
+num_2 = int(input("Enter your number: "))
+operator = input(' Enter +,-,/,:')
+
+if operator == '+':
+    print(num_1 + num_2)
+elif operator =='-':
+    print(num_1 - num_2)
+elif operator == '*':
+    print(num_1 * num_2)
+else:
+    print(num_1 / num_2)
